@@ -1,0 +1,35 @@
+:root{
+    --light-blue: #199de5;
+    --dark-blue:#076490;
+    --primary-color:#ffffff;
+    --grey:#dfe5e8;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8); 
+}
+.my-photos-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:  repeat(3, 1fr);
+    gap: 16px;
+    padding: 10px 20px;
+}
+.section-left{
+    width: 30%;
+}
+.section-left-main-div .btn{
+    width: 100%;
+}
+.my-photos-img img{
+    width: 100%;
+}
+.div{
+    box-shadow: var(--shadow);
+}
+.btn{
+    background-color: var(--light-blue);
+    color: var(--primary-color);
+    padding: 10px 20px;
+    text-align: left;
+    border: none;
+}
+
+
