@@ -258,6 +258,11 @@ hr {
   margin-top: 5px;
   border-radius: 50px;
   text-transform: uppercase;
+  transition: transform 0.5s;
+}
+
+.adv-btn:hover {
+  transform: scale(1.5);
 }
 
 .wrapper {
