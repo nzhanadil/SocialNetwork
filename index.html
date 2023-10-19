@@ -1,211 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <title>Facebook</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <a href="#" class="header-nav-home i-text">
-                <i class="fa fa-home" aria-hidden="true"></i>
-                Seytech
-            </a>
-            <a href="#" class="header-nav-web hide">
-                <i class="fa fa-globe" aria-hidden="true"></i>
-            </a>
-            <a href="#" class="header-nav-profile hide">
-                <i class="fa fa-user" aria-hidden="true"></i>
-            </a>
-            <a href="#" class="header-nav-inbox hide">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-            </a>
-        </nav>
+      <nav>
+        <a href="#" class="header-nav-home i-text">
+          <i class="fa fa-home" aria-hidden="true"></i>
+          Seytech
+        </a>
+        <a href="#" class="header-nav-web hide">
+          <i class="fa fa-globe" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="header-nav-profile hide">
+          <i class="fa fa-user" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="header-nav-inbox hide">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+        </a>
+      </nav>
     </header>
     <main>
-        <section class="section section-left">
-            <div class="div my-profile-div">
-                <div class="my-profile">
-                    <h3>My Profile</h3>
-                    <img src="./assets/marat.jpg" class="img profile-img">
-                </div>
-                <hr>
-                <div id="job-title" class="i-text">
-                    <i class="fa fa-pencil" aria-hidden="true"></i>
-                    Software Engineer
-                </div>
-                <div id="location" class="i-text">
-                    <i class="fa fa-home" aria-hidden="true"></i>
-                    Seattle, WA
-                </div>
-                <div id="b-day" class="i-text">
-                    <i class="fa fa-birthday-cake" aria-hidden="true"></i>
-                    April 10
-                </div>
+      <section class="section section-left">
+        <div class="div my-profile-div">
+          <div class="my-profile">
+            <h3>My Profile</h3>
+            <img src="./assets/marat.jpg" class="img profile-img" />
+          </div>
+          <hr />
+          <div id="job-title" class="i-text">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            Software Engineer
+          </div>
+          <div id="location" class="i-text">
+            <i class="fa fa-home" aria-hidden="true"></i>
+            Seattle, WA
+          </div>
+          <div id="b-day" class="i-text">
+            <i class="fa fa-birthday-cake" aria-hidden="true"></i>
+            April 10
+          </div>
+        </div>
+        <div class="div section-left-main-div">
+          <div class="my-groups-div">
+            <button class="btn my-groups-btn">
+              <i class="fa fa-circle-o-notch" aria-hidden="true"></i>
+              My Groups
+            </button>
+            <p>Some text...</p>
+          </div>
+          <div class="my-events-div">
+            <button class="btn my-events-btn">
+              <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+              My Events
+            </button>
+            <p>Some text...</p>
+          </div>
+          <div class="my-photos-div">
+            <button class="btn my-photos-btn">
+              <i class="fa fa-users" aria-hidden="true"></i>
+              My Photos
+            </button>
+            <div class="my-photos-img">
+              <img src="./assets/lights.jpg" alt="" />
+              <img src="./assets/nature.jpg" alt="" />
+              <img src="./assets/mountains.jpg" alt="" />
+              <img src="./assets/forest.jpg" alt="" />
+              <img src="./assets/nature.jpg" alt="" />
+              <img src="./assets/snow.jpg" alt="" />
             </div>
-            <div class="div section-left-main-div">
-                <div class="my-groups-div">
-                    <button class="btn my-groups-btn">
-                        <i class="fa fa-circle-o-notch" aria-hidden="true"></i>
-                        My Groups
-                    </button>
-                    <p>Some text...</p>
-                </div>
-                <div class="my-events-div">
-                    <button class="btn my-events-btn">
-                        <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
-                        My Events
-                    </button>
-                    <p>Some text...</p>
-                </div>
-                <div class="my-photos-div">
-                    <button class="btn my-photos-btn">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        My Photos
-                    </button>
-                    <div class="my-photos-img">
-                        <img src="./assets/lights.jpg" alt="">
-                        <img src="./assets/nature.jpg" alt="">
-                        <img src="./assets/mountains.jpg" alt="">
-                        <img src="./assets/forest.jpg" alt="">
-                        <img src="./assets/nature.jpg" alt="">
-                        <img src="./assets/snow.jpg" alt="">
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="div interests-div hide">
+          <p>Interests</p>
+          <span class="span news-span">News</span>
+          <span class="span seytech-span">Seytech</span>
+          <span class="span algos-span">Algos</span>
+          <span class="span games-span">Games</span>
+          <span class="span friends-span">Friends</span>
+          <span class="span games-span">Games</span>
+          <span class="span friends-span">Friends</span>
+          <span class="span food-span">Food</span>
+          <span class="span design-span">Design</span>
+          <span class="span art-span">Art</span>
+          <span class="span photos-span">Photos</span>
+        </div>
+        <div class="div alert-div hide">
+          <i class="fa fa-times" aria-hidden="true"></i>
+          <p>Hey</p>
+          <p>People are looking at your profile. Find out who.</p>
+        </div>
+      </section>
+      <section class="section section-center">
+        <div class="div status-post-div">
+          <input type="text" value="Status: Feeling Blue" />
+          <button class="btn post-button">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            &nbsp;Post
+          </button>
+        </div>
+        <div class="div rachel-post-div">
+          <div class="user-header">
+            <div class="user-profile">
+              <img src="./assets/rachel.jpeg" alt="" class="img profile-img" />
+              <h4>Rachel Sine</h4>
             </div>
-            <div class="div interests-div hide">
-                <p>Interests</p>
-                <span class="span news-span">News</span>
-                <span class="span seytech-span">Seytech</span>
-                <span class="span algos-span">Algos</span>
-                <span class="span games-span">Games</span>
-                <span class="span friends-span">Friends</span>
-                <span class="span games-span">Games</span>
-                <span class="span friends-span">Friends</span>
-                <span class="span food-span">Food</span>
-                <span class="span design-span">Design</span>
-                <span class="span art-span">Art</span>
-                <span class="span photos-span">Photos</span>
+            <p>1 min</p>
+          </div>
+          <hr />
+          <div class="post">
+            <p>
+              Next cohort will start soon. We strive for teaching our students
+              the most up-to-date programming technologies. Contact us.
+            </p>
+            <div class="post-img">
+              <img src="./assets/p0.png" alt="" />
+              <img src="./assets/p1.jpg" alt="" />
             </div>
-            <div class="div alert-div hide">
-                <i class="fa fa-times" aria-hidden="true"></i>
-                <p>Hey</p>
-                <p>People are looking at your profile. Find out who.</p>
+          </div>
+          <button class="btn like-btn">
+            <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+            &nbsp;Like
+          </button>
+          <button class="btn comment-btn">
+            <i class="fa fa-comment" aria-hidden="true"></i>
+            &nbsp;Comment
+          </button>
+        </div>
+        <div class="div aikol-post-div">
+          <div class="user-header">
+            <div class="user-profile">
+              <img src="./assets/aikol.jpeg" alt="" class="img profile-img" />
+              <h4>Aikol T</h4>
             </div>
-        </section>
-        <section class="section section-center">
-            <div class="div status-post-div">
-                <input type="text" value="Status: Feeling Blue">
-                <button class="btn post-button">
-                    <i class="fa fa-pencil" aria-hidden="true"></i>
-                    &nbsp;Post
-                </button>
+            <p>16 min</p>
+          </div>
+          <hr />
+          <div class="post">
+            <p>
+              Join us at the new and improved Microsoft! We are building the
+              Developer Relations dream team in Azure engineering. Our global
+              team is...
+            </p>
+          </div>
+          <button class="btn like-btn">
+            <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+            &nbsp;Like
+          </button>
+          <button class="btn comment-btn">
+            <i class="fa fa-comment" aria-hidden="true"></i>
+            &nbsp;Comment
+          </button>
+        </div>
+        <div class="div ulan-post-div">
+          <div class="user-header">
+            <div class="user-profile">
+              <img src="./assets/ulan.jpeg" alt="" class="img profile-img" />
+              <h4>Ulan R</h4>
             </div>
-            <div class="div rachel-post-div">
-                <div class="user-header">
-                    <div class="user-profile">
-                        <img src="./assets/rachel.jpeg" alt="" class="img profile-img">
-                    <h4>Rachel Sine</h4>
-                    </div>
-                    <p>1 min</p>
-                </div>
-                <hr>
-                <div class="post">
-                    <p>Next cohort will start soon. We strive for teaching our students the most up-to-date programming technologies. Contact us.</p>
-                    <div class="post-img">
-                        <img src="./assets/p0.png" alt="">
-                        <img src="./assets/p1.jpg" alt="">
-                    </div>
-                </div>
-                <button class="btn like-btn">
-                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                    &nbsp;Like
-                </button>
-                <button class="btn comment-btn">
-                    <i class="fa fa-comment" aria-hidden="true"></i>
-                    &nbsp;Comment
-                </button>
-            </div>
-            <div class="div aikol-post-div">
-                <div class="user-header">
-                    <div class="user-profile">
-                        <img src="./assets/aikol.jpeg" alt="" class="img profile-img">
-                        <h4>Aikol T</h4>
-                    </div>
-                    <p>16 min</p>
-                </div>
-                <hr>
-                <div class="post">
-                    <p>Join us at the new and improved Microsoft! We are building the Developer Relations dream team in Azure engineering. Our global team is...</p>
-                </div>
-                <button class="btn like-btn">
-                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                    &nbsp;Like
-                </button>
-                <button class="btn comment-btn">
-                    <i class="fa fa-comment" aria-hidden="true"></i>
-                    &nbsp;Comment
-                </button>
-            </div>
-            <div class="div ulan-post-div">
-                <div class="user-header">
-                    <div class="user-profile">
-                        <img src="./assets/ulan.jpeg" alt="" class="img profile-img">
-                        <h4>Ulan R</h4>
-                    </div>
-                    <p>32 min</p>
-                </div>
-                <hr>
-                <div class="post">
-                    <p>Have you seen this?</p>
-                    <img src="./assets/web.png" alt="">
-                    <p>Coding bootcamp reviews, rankings, and resources to help students find what they need. Bootcamp Venue</p>
-                </div>
-                <button class="btn like-btn">
-                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                    &nbsp;Like
-                </button>
-                <button class="btn comment-btn">
-                    <i class="fa fa-comment" aria-hidden="true"></i>
-                    &nbsp;Comment
-                </button>
-            </div>
-        </section>
-        <section class="section section-right">
-            <div class="div upcoming-events-div">
-                <p>Upcoming Events:</p>
-                <img src="./assets/event.png" alt="">
-                <p>React Course</p>
-                <p>Friday 15:00</p>
-                <button class="btn info-btn">Info</button>
-            </div>
-            <div class="div friend-requests-div">
-                <p>Friend Request</p>
-                <figure>
-                    <img src="./assets/default.jpg" alt="">
-                    <figcaption>Shiba Inu</figcaption>
-                </figure>
-                <div class="buttons">
-                    <button class="btn accept-btn">
-                        <i class="fa fa-check" aria-hidden="true"></i>
-                    </button>
-                    <button class="btn decline-btn">
-                        <i class="fa fa-times" aria-hidden="true"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="div ads-div">ADS</div>
+            <p>32 min</p>
+          </div>
+          <hr />
+          <div class="post">
+            <p>Have you seen this?</p>
+            <img src="./assets/web.png" alt="" />
+            <p>
+              Coding bootcamp reviews, rankings, and resources to help students
+              find what they need. Bootcamp Venue
+            </p>
+          </div>
+          <button class="btn like-btn">
+            <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+            &nbsp;Like
+          </button>
+          <button class="btn comment-btn">
+            <i class="fa fa-comment" aria-hidden="true"></i>
+            &nbsp;Comment
+          </button>
+        </div>
+      </section>
+      <section class="section section-right">
+        <div class="div upcoming-events-div">
+          <p>Upcoming Events:</p>
+          <img src="./assets/event.png" alt="" />
+          <p>React Course</p>
+          <p>Friday 15:00</p>
+          <button class="btn info-btn">Info</button>
+        </div>
+        <div class="div friend-requests-div">
+          <p>Friend Request</p>
+          <figure>
+            <img src="./assets/default.jpg" alt="" />
+            <figcaption>Shiba Inu</figcaption>
+          </figure>
+          <div class="buttons">
+            <button class="btn accept-btn">
+              <i class="fa fa-check" aria-hidden="true"></i>
+            </button>
+            <button class="btn decline-btn">
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+        <!-- <div class="div ads-div">ADS</div>
             <div class="div bug-div">
                 <i class="fa fa-bug" aria-hidden="true"></i>
+            </div> -->
+
+        <!-- Advertisement-1 -->
+
+        <div class="mainCont">
+          <div class="div ads-div">
+            <div class="videoCont">
+              <video class="videoAd" autoplay muted loop>
+                <source
+                  src="/assets/stock-footage-alternative-cinematic-macro-of-programer-s-hands-busy-working-on-latest-innovative-sophisticated.mp4"
+                  type="video/mp4"
+                />
+              </video>
+
+              <div class="icons">
+                <a
+                  href="https://www.seytech.co/"
+                  target="_blank"
+                  class="iconOne"
+                  ><i class="fa-solid fa-info"></i
+                ></a>
+                <a href="#" class="iconTwo"
+                  ><i class="far fa-window-close" id="closeBtn"></i
+                ></a>
+              </div>
+              <div class="p-wrap">
+                <h3>Seytech</h3>
+                <p>Just code it</p>
+              </div>
+              <div class="adv-button">
+                <a
+                  href="https://www.seytech.co/"
+                  target="_blank"
+                  class="adv-btn"
+                  >Start Today</a
+                >
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+
+        <!-- Advertisement-2 -->
+        <div class="mainCont2">
+          <div class="div bug-div">
+            <a href="#" class="closeIcon"
+              ><i class="far fa-window-close" id="closeBtn2"></i
+            ></a>
+            <div class="container">
+              <div class="section-1">
+                <a href="#" class="logo"><i class="fab fa-apple"></i></a>
+
+                <div class="section-1-banner center">
+                  <div class="cube-wrapper">
+                    <div class="front-side">
+                      <h1>
+                        Best Gift
+                        <span>&#8595;</span>
+                      </h1>
+                      <img src="/assets/pngimg.com - iphone_14_PNG42.png" />
+                      <p>New Iphone 15 Pro Max</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="https://www.apple.com/" class="adv-btn-2" target="_blank"
+              >Buy Now</a
+            >
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <div class="footer">Footer</div>
-        <div class="powered-by">Powered by TEAM NAME</div>
+      <div class="footer">Footer</div>
+      <div class="powered-by">Powered by TEAM NAME</div>
     </footer>
-</body>
+  </body>
 </html>
