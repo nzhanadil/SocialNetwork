@@ -264,3 +264,14 @@ footer .powered-by{
         width: 100%;
     }
 }
+.nav-hover:hover{
+    background-color: white;
+
+}
+/* .header-nav-web,.header-nav-profile,.header-nav-inbox{
+    position: relative;
+}
+.header-nav-web,.header-nav-profile,.header-nav-inbox i{
+    position: absolute;
+} */
+
